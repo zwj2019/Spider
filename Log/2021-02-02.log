@@ -1,0 +1,2118 @@
+2021-02-02 23:13:47 [scrapy.utils.log] INFO: Scrapy 2.3.0 started (bot: EBCodeSearch)
+2021-02-02 23:13:47 [scrapy.utils.log] INFO: Versions: lxml 4.5.2.0, libxml2 2.9.5, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 20.3.0, Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1g  21 Apr 2020), cryptography 3.0, Platform Windows-10-10.0.18362-SP0
+2021-02-02 23:13:47 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2021-02-02 23:13:47 [spiderLogger] INFO: Spider [gitee_spider] start
+2021-02-02 23:13:47 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'EBCodeSearch',
+ 'COMMANDS_MODULE': 'EBCodeSearch.commands',
+ 'LOG_FILE': 'EBCodeSearch/Log/2021-02-02.log',
+ 'NEWSPIDER_MODULE': 'EBCodeSearch.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['EBCodeSearch.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) '
+               'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 '
+               'Safari/537.36'}
+2021-02-02 23:13:47 [scrapy.extensions.telnet] INFO: Telnet Password: 86d432b0cacd3ec0
+2021-02-02 23:13:47 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2021-02-02 23:13:48 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2021-02-02 23:13:48 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2021-02-02 23:13:48 [scrapy.middleware] INFO: Enabled item pipelines:
+['EBCodeSearch.pipelines.EbcodesearchPipeline']
+2021-02-02 23:13:48 [scrapy.core.engine] INFO: Spider opened
+2021-02-02 23:13:48 [spiderLogger] INFO: Open File : EBCodeSearch/Data\gitee_spider.json
+2021-02-02 23:13:48 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2021-02-02 23:13:48 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2021-02-02 23:13:48 [spiderLogger] INFO: Spider [github_spider] start
+2021-02-02 23:13:48 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'EBCodeSearch',
+ 'COMMANDS_MODULE': 'EBCodeSearch.commands',
+ 'LOG_FILE': 'EBCodeSearch/Log/2021-02-02.log',
+ 'NEWSPIDER_MODULE': 'EBCodeSearch.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['EBCodeSearch.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) '
+               'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 '
+               'Safari/537.36'}
+2021-02-02 23:13:48 [scrapy.extensions.telnet] INFO: Telnet Password: 589a24208b79a78f
+2021-02-02 23:13:48 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2021-02-02 23:13:48 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2021-02-02 23:13:48 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2021-02-02 23:13:48 [scrapy.middleware] INFO: Enabled item pipelines:
+['EBCodeSearch.pipelines.EbcodesearchPipeline']
+2021-02-02 23:13:48 [scrapy.core.engine] INFO: Spider opened
+2021-02-02 23:13:48 [spiderLogger] INFO: Open File : EBCodeSearch/Data\github_spider.json
+2021-02-02 23:13:48 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2021-02-02 23:13:48 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6024
+2021-02-02 23:13:48 [spiderLogger] INFO: Spider [gitlab_spider] start
+2021-02-02 23:13:48 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'EBCodeSearch',
+ 'COMMANDS_MODULE': 'EBCodeSearch.commands',
+ 'LOG_FILE': 'EBCodeSearch/Log/2021-02-02.log',
+ 'NEWSPIDER_MODULE': 'EBCodeSearch.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['EBCodeSearch.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) '
+               'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 '
+               'Safari/537.36'}
+2021-02-02 23:13:48 [scrapy.extensions.telnet] INFO: Telnet Password: bcf55d0763129458
+2021-02-02 23:13:48 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2021-02-02 23:13:48 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2021-02-02 23:13:48 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2021-02-02 23:13:48 [scrapy.middleware] INFO: Enabled item pipelines:
+['EBCodeSearch.pipelines.EbcodesearchPipeline']
+2021-02-02 23:13:48 [scrapy.core.engine] INFO: Spider opened
+2021-02-02 23:13:48 [spiderLogger] INFO: Open File : EBCodeSearch/Data\gitlab_spider.json
+2021-02-02 23:13:48 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2021-02-02 23:13:48 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6025
+2021-02-02 23:13:48 [spiderLogger] INFO: Request URL : https://gitee.com/api/v5/search/repositories?q=Python
+2021-02-02 23:13:48 [spiderLogger] INFO: Request URL : https://api.github.com/search/repositories?q=Python&per_page=30
+2021-02-02 23:13:48 [spiderLogger] INFO: Request URL : https://gitlab.com/api/v4/search?search=Python&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ
+2021-02-02 23:13:48 [spiderLogger] INFO: Request URL : https://gitee.com/api/v5/search/repositories?q=C
+2021-02-02 23:13:48 [spiderLogger] INFO: Request URL : https://api.github.com/search/repositories?q=C&per_page=30
+2021-02-02 23:13:48 [spiderLogger] INFO: Request URL : https://gitlab.com/api/v4/search?search=C&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ
+2021-02-02 23:13:48 [spiderLogger] INFO: Request URL : https://gitee.com/api/v5/search/repositories?q=JAVA
+2021-02-02 23:13:48 [spiderLogger] INFO: Request URL : https://api.github.com/search/repositories?q=JAVA&per_page=30
+2021-02-02 23:13:48 [spiderLogger] INFO: Request URL : https://gitlab.com/api/v4/search?search=JAVA&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ
+2021-02-02 23:13:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://gitee.com/robots.txt> (referer: None)
+2021-02-02 23:13:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://gitee.com/api/v5/search/repositories?q=Python> (referer: None)
+2021-02-02 23:13:49 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=Python>
+{'created_at': '2014-01-14T13:16:16+08:00',
+ 'description': 'Python编写的爬虫程序，可以爬图片和小说',
+ 'name': '振长策而御宇内',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/zhenyu5211314/PythonClimbInsect.git',
+ 'updated_at': '2021-01-21T14:12:49+08:00',
+ 'user_url': 'https://gitee.com/zhenyu521'}
+2021-02-02 23:13:49 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=Python>
+{'created_at': '2014-02-04T00:41:06+08:00',
+ 'description': 'python实现身份证OCR识别,服务器端口快速探测,打印ascii码表,excel读写创建,socks5代理， '
+                'flv转mp4, jpg合成pdf,delicious 书签导出，瓣糗事百科笑话下载入',
+ 'name': 'mktime',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/mktime/python-learn.git',
+ 'updated_at': '2021-01-28T16:35:11+08:00',
+ 'user_url': 'https://gitee.com/mk'}
+2021-02-02 23:13:49 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=Python>
+{'created_at': '2014-03-22T23:05:29+08:00',
+ 'description': '基于C++/Python的开源量化交易研究框架',
+ 'name': 'fasiondog',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/fasiondog/hikyuu.git',
+ 'updated_at': '2021-02-02T22:14:51+08:00',
+ 'user_url': 'https://gitee.com/fasio'}
+2021-02-02 23:13:49 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=Python>
+{'created_at': '2015-04-08T11:32:27+08:00',
+ 'description': 'awesome-python 的中文版',
+ 'name': '红薯',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/awesome-lib/awesome-python.git',
+ 'updated_at': '2021-02-02T22:20:30+08:00',
+ 'user_url': 'https://gitee.co'}
+2021-02-02 23:13:49 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=Python>
+{'created_at': '2016-04-11T12:24:54+08:00',
+ 'description': '百晓通客栈-增强现实开发库（with Python）',
+ 'name': 'KK',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/Lindor_L/BXT-AR4Python.git',
+ 'updated_at': '2021-01-20T14:17:18+08:00',
+ 'user_url': 'https://gitee.com/bxtkezhan_a'}
+2021-02-02 23:13:49 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=Python>
+{'created_at': '2017-06-29T15:09:15+08:00',
+ 'description': 'zbus python client',
+ 'name': 'rushmore',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/openforce/zbus-python.git',
+ 'updated_at': '2021-01-31T20:17:49+08:00',
+ 'user_url': 'https://gitee.com/rush'}
+2021-02-02 23:13:49 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=Python>
+{'created_at': '2017-11-22T21:18:18+08:00',
+ 'description': 'Python量化投资交易平台。基于Python3的多线程并发式高频交易平台, '
+                '提供一致的回测和实时交易解决方案。它遵循现代设计模式，例如事件驱动，服务器/客户端架构和松散耦合的强大稳定的分布式系统。它',
+ 'name': 'EliteQuant',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/EliteQuant/EliteQuant_Python.git',
+ 'updated_at': '2021-02-01T00:10:35+08:00',
+ 'user_url': 'https://gitee.com/EliteQ'}
+2021-02-02 23:13:49 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=Python>
+{'created_at': '2018-04-26T11:00:12+08:00',
+ 'description': 'Python 人脸识别技术 ',
+ 'name': '非空',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/QR/QrF.Python.FaceRecognition.git',
+ 'updated_at': '2021-01-28T23:14:36+08:00',
+ 'user_url': 'https://gitee.co'}
+2021-02-02 23:13:49 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=Python>
+{'created_at': '2018-05-25T21:11:40+08:00',
+ 'description': 'Python WxPython开源扫雷游戏PyMine新版1.4有少量API修改。本例为开源扫雷游戏PyMine '
+                '使用Python语言和WxPython UI框架 本例移植自本人开源例程JMine 请',
+ 'name': '火鸟',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/jerryshensjf/PyMine.git',
+ 'updated_at': '2021-01-27T19:55:23+08:00',
+ 'user_url': 'https://gitee.com/jerryshe'}
+2021-02-02 23:13:49 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=Python>
+{'created_at': '2018-11-09T09:14:23+08:00',
+ 'description': '从零学Python，各种开发案例，不定期更新。',
+ 'name': '小柒2012',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/52itstyle/Python.git',
+ 'updated_at': '2021-02-02T18:19:42+08:00',
+ 'user_url': 'https://gitee.com/52its'}
+2021-02-02 23:13:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://gitee.com/api/v5/search/repositories?q=JAVA> (referer: None)
+2021-02-02 23:13:49 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=Python>
+{'created_at': '2018-11-09T10:11:51+08:00',
+ 'description': '一个 Python 编写的 eureka 客户端，同时支持注册与发现服务，能使得你的代码非常方便地接入 spring '
+                'cloud 中。',
+ 'name': 'keijack',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/keijack/python-eureka-client.git',
+ 'updated_at': '2021-02-02T16:24:43+08:00',
+ 'user_url': 'https://gitee.com/kei'}
+2021-02-02 23:13:49 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=Python>
+{'created_at': '2019-04-07T23:00:26+08:00',
+ 'description': '基于IDAPython的二进制漏洞检测脚本库，对IDA生成的反汇编文件进行静态分析，并以XML形式报告可能存在的漏洞隐患点。',
+ 'name': 'wwy',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/wwy2018/IDAPythonScripts.git',
+ 'updated_at': '2021-02-02T21:34:35+08:00',
+ 'user_url': 'https://gitee.com/wwy'}
+2021-02-02 23:13:49 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=Python>
+{'created_at': '2019-11-20T13:13:57+08:00',
+ 'description': '简单但强大的Python量化开发包',
+ 'name': '天勤量化（TqSdk）',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/tianqin_quantification_tqsdk/tqsdk-python.git',
+ 'updated_at': '2021-01-28T15:43:34+08:00',
+ 'user_url': 'https://gitee.com/tianqin_quantification_t'}
+2021-02-02 23:13:49 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=Python>
+{'created_at': '2020-02-14T16:14:46+08:00',
+ 'description': 'Pure-Python RSA implementation',
+ 'name': 'freesky-edward',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/src-openeuler/python-rsa.git',
+ 'updated_at': '2020-12-20T14:03:04+08:00',
+ 'user_url': 'https://gitee.com/freesky-ed'}
+2021-02-02 23:13:49 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=Python>
+{'created_at': '2020-02-14T16:14:48+08:00',
+ 'description': 'A python SOAP client',
+ 'name': 'freesky-edward',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/src-openeuler/python-suds2.git',
+ 'updated_at': '2021-01-13T11:18:46+08:00',
+ 'user_url': 'https://gitee.com/freesky-ed'}
+2021-02-02 23:13:49 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=Python>
+{'created_at': '2020-02-14T17:08:45+08:00',
+ 'description': 'A Python library for the Docker Engine API',
+ 'name': 'freesky-edward',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/src-openeuler/python-docker.git',
+ 'updated_at': '2021-02-01T09:17:32+08:00',
+ 'user_url': 'https://gitee.com/freesky-ed'}
+2021-02-02 23:13:49 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=JAVA>
+{'created_at': '2015-03-27T21:42:55+08:00',
+ 'description': '[Archived]为微信公众号打造的 JavaScript 组件库，基于 riot.js，样式参考 weui '
+                '项目，只需引入一个 JavaScript 文件。',
+ 'name': '熊立丁',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/xiongliding/wx.git',
+ 'updated_at': '2021-02-01T19:13:53+08:00',
+ 'user_url': 'https://gitee.com/xiongli'}
+2021-02-02 23:13:49 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=Python>
+{'created_at': '2020-06-25T16:54:22+08:00',
+ 'description': '人工智能实战——从 Python 入门到机器学习',
+ 'name': 'shao1chuan',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/shao1chuan/pythonbook.git',
+ 'updated_at': '2021-01-31T00:29:59+08:00',
+ 'user_url': 'https://gitee.com/shao1c'}
+2021-02-02 23:13:49 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=JAVA>
+{'created_at': '2015-05-19T02:22:05+08:00',
+ 'description': 'js简单的设置快捷键，没有依赖。 https://jaywcjlove.gitee.io/hotkeys',
+ 'name': '小弟调调',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/jaywcjlove/hotkeys.git',
+ 'updated_at': '2021-02-02T04:25:16+08:00',
+ 'user_url': 'https://gitee.com/jaywcj'}
+2021-02-02 23:13:49 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=Python>
+{'created_at': '2020-07-07T11:17:00+08:00',
+ 'description': 'Python “贪吃蛇” 魔改大赛，是 Gitee 面向 Python 爱好者举办的一场创意编程比赛，旨在鼓励喜爱 '
+                'Python 编程或有丰富想象力、创新力的小伙伴积极参与开源，并为其提供竞技和展示的',
+ 'name': '小鱼丁',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/gitee-community/Adapted-game.git',
+ 'updated_at': '2021-02-02T12:14:08+08:00',
+ 'user_url': 'https://gitee.com/xiaoyu'}
+2021-02-02 23:13:49 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=JAVA>
+{'created_at': '2016-03-08T17:58:42+08:00',
+ 'description': 'js ajax异步上传插件， 包括两个组件 JUpload （单文件上传，支持html5和iframe上传）, '
+                'BUpload（基于html5的批量上传工具 + 在线文件管理 + 图片搜索）',
+ 'name': 'RockYang',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/blackfox/Uploader.git',
+ 'updated_at': '2021-01-08T16:06:08+08:00',
+ 'user_url': 'https://gitee.com/blac'}
+2021-02-02 23:13:49 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=Python>
+{'created_at': '2020-07-17T17:18:36+08:00',
+ 'description': '通过天猫精灵语音技能控制 MicroPython ESP32 开发板',
+ 'name': 'Walkline',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/walkline/MicroPython-with-Aligenie-Voice-Skill.git',
+ 'updated_at': '2021-01-12T16:28:13+08:00',
+ 'user_url': 'https://gitee.com/walk'}
+2021-02-02 23:13:49 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=JAVA>
+{'created_at': '2016-06-09T20:37:06+08:00',
+ 'description': '一款轻量、无依赖的 JavaScript 验证组件',
+ 'name': 'MinJieLiu',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/MinJieLiu/validator.js.git',
+ 'updated_at': '2021-01-27T14:14:49+08:00',
+ 'user_url': 'https://gitee.com/MinJi'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=Python>
+{'created_at': '2021-02-01T16:59:11+08:00',
+ 'description': 'Python开源项目官方仓库！智编工作室官方出品！官方模块化Python网站：http://gddxq.gitee.io/pythonpb/',
+ 'name': '滚动的小球',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/gddxq/pythonp.git',
+ 'updated_at': '2021-02-02T08:58:49+08:00',
+ 'user_url': 'https://gitee.com/g'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=JAVA>
+{'created_at': '2016-07-02T17:39:39+08:00',
+ 'description': '强大易用、扩展性好的js验证框架，帮助你脱离或减少前端验证带来的烦恼。',
+ 'name': 'talent-tan',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/tywo45/talent-validate.git',
+ 'updated_at': '2020-12-21T12:40:49+08:00',
+ 'user_url': 'https://gitee.com/ty'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=JAVA>
+{'created_at': '2016-07-28T14:06:08+08:00',
+ 'description': 'WxJava - 微信开发 Java '
+                'SDK，支持微信支付、开放平台、公众号、企业号/企业微信、小程序等的后端开发，记得右上角点个star 关注更新',
+ 'name': '班纳睿',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/binary/weixin-java-tools.git',
+ 'updated_at': '2021-02-02T21:35:34+08:00',
+ 'user_url': 'https://gitee.com/bi'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=JAVA>
+{'created_at': '2017-01-05T22:59:12+08:00',
+ 'description': 'Rexjs - 是一款又快、又小、性价比极高的 JavaScript(ES6+) 语法的编译器！',
+ 'name': 'china-liji',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/mic-pages/Rexjs.git',
+ 'updated_at': '2020-12-19T00:26:29+08:00',
+ 'user_url': 'https://gitee.com/mic-p'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=JAVA>
+{'created_at': '2017-08-21T11:06:33+08:00',
+ 'description': 'PearDownloader（梨享下载器） 是PearPlayer的底层下载模块， '
+                '实现了融合HTTP（包含HTTPS、HTTP2）、WebRTC的多协议、多源、低延迟、高带宽利用率的无插件Web端下',
+ 'name': 'Cheedoong',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/PearInc/PearDownloader.js.git',
+ 'updated_at': '2021-01-17T17:19:10+08:00',
+ 'user_url': 'https://gitee.com/cheed'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=JAVA>
+{'created_at': '2017-10-26T16:07:13+08:00',
+ 'description': 'anyupload是一个极度纯净的上传插件，通过简单调整就可以融入到任何项目，支持多文件上传、上传速率动态控制、真实进度监控kb/s、分块生成MD5、分块上传、MD5校验秒传、暂停、取消等。仅需100',
+ 'name': '电霸儿',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/dianbaer/anyupload.git',
+ 'updated_at': '2021-01-08T16:03:50+08:00',
+ 'user_url': 'https://gitee.com/dian'}
+2021-02-02 23:13:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://gitee.com/api/v5/search/repositories?q=C> (referer: None)
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=JAVA>
+{'created_at': '2018-06-20T10:44:09+08:00',
+ 'description': 'SpriteJS 是一款由 360 奇舞团开源的跨终端 canvas/webgl 绘图库，可以基于 '
+                'canvas/webgl 快速绘制结构化 UI 、动画和交互效果，并发布到任何拥有 canvas 环',
+ 'name': 'Qihoo360',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/qihoo360/spriteJS.git',
+ 'updated_at': '2021-01-30T21:15:50+08:00',
+ 'user_url': 'https://gitee.com/qihoo3'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=JAVA>
+{'created_at': '2018-06-22T09:05:32+08:00',
+ 'description': 'zbus javascript client for both browser and node.js',
+ 'name': 'rushmore',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/openforce/zbus-js.git',
+ 'updated_at': '2021-01-21T08:45:36+08:00',
+ 'user_url': 'https://gitee.com/rush'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=JAVA>
+{'created_at': '2018-08-17T16:08:25+08:00',
+ 'description': '中华人民共和国行政区划：省级（省份直辖市自治区）、 地级（城市）、 县级（区县）、 乡级（乡镇街道）、 '
+                '村级（村委会居委会）',
+ 'name': 'netnr',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/netnr/zoning.git',
+ 'updated_at': '2021-02-02T10:07:52+08:00',
+ 'user_url': 'https://gitee.com/n'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=JAVA>
+{'created_at': '2018-08-21T13:23:24+08:00',
+ 'description': ' 快速、简便的响应式JavaScript开发框架',
+ 'name': 'Skyogo',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/skyogo/Per.js.git',
+ 'updated_at': '2021-01-31T01:27:04+08:00',
+ 'user_url': 'https://gitee.com/skyog'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=JAVA>
+{'created_at': '2018-11-21T10:55:08+08:00',
+ 'description': '使用原生JS实现的转盘抽奖和九宫格抽奖插件！',
+ 'name': 'Rattenking',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/Rattenking/LuckDraw.git',
+ 'updated_at': '2021-02-02T18:08:08+08:00',
+ 'user_url': 'https://gitee.com/Ratten'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=JAVA>
+{'created_at': '2019-06-17T18:17:45+08:00',
+ 'description': '一个简单实用的 JavaScript 日历控件！原生 JavaScript '
+                '编写，不依赖任何第三方库。支持日期、月份和年份试图切换；支持单选、多选、范围和星期选择模式；界面简介、配置简单、使用方便！',
+ 'name': '前端巨浪',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/yaohaixiao/calendar.js.git',
+ 'updated_at': '2021-02-01T17:02:31+08:00',
+ 'user_url': 'https://gitee.com/yaohai'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=C>
+{'created_at': '2013-10-27T12:31:37+08:00',
+ 'description': '一款使用Java语言开发的CMS，使用了Spring '
+                'MVC,Spring,MyBatis等流行框架，提供首页大图管理、目录管理、文章管理和管理员管理等功能。是学习和二次开发的首选。',
+ 'name': '师说',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/shishuo/CMS.git',
+ 'updated_at': '2021-02-01T18:16:28+08:00',
+ 'user_url': 'https://gitee.com/shi'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=JAVA>
+{'created_at': '2019-08-27T20:31:00+08:00',
+ 'description': 'G6 是一个图可视化框架。它提供了一套图可视化的基础设置，能帮助开发者搭建属于自己的图 图分析 应用或是 图编辑器 应用',
+ 'name': '前端工程师',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/antv/g6.git',
+ 'updated_at': '2021-02-02T22:20:20+08:00',
+ 'user_url': 'https://gitee.com/af'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=C>
+{'created_at': '2013-12-19T16:48:19+08:00',
+ 'description': 'ThinkCMF是一款支持Swoole的开源内容管理框架，基于ThinkPHP开发，同时支持PHP-FPM和Swoole双模式，让WEB开发更快!',
+ 'name': 'thinkcmf',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/thinkcmf/ThinkCMF.git',
+ 'updated_at': '2021-02-02T18:26:37+08:00',
+ 'user_url': 'https://gitee.com/thin'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=JAVA>
+{'created_at': '2020-02-14T11:04:30+08:00',
+ 'description': '易观方舟的 JavaScript SDK',
+ 'name': '聂励峰',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/Analysys/ans-javascript-sdk.git',
+ 'updated_at': '2021-01-11T15:32:32+08:00',
+ 'user_url': 'https://gitee.com/analysys_sdk_nieli'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=C>
+{'created_at': '2014-07-24T22:31:10+08:00',
+ 'description': 'POI '
+                '工具类,Excel的快速导入导出,Excel模板导出,Word模板导出,可以仅仅5行代码就可以完成Excel的导入导出,修改导出格式简单粗暴,快速有效,easypoi值得你尝试',
+ 'name': 'jueyue',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/lemur/easypoi.git',
+ 'updated_at': '2021-02-02T16:47:55+08:00',
+ 'user_url': 'https://gitee.com/ju'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=JAVA>
+{'created_at': '2020-08-28T14:27:39+08:00',
+ 'description': '在浏览器端使用 JS 快速爬取文件的框架',
+ 'name': '动中之动',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/dongzhongzhidong/jspider.git',
+ 'updated_at': '2021-01-31T01:33:40+08:00',
+ 'user_url': 'https://gitee.com/dongzhongzhi'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=C>
+{'created_at': '2015-03-08T21:17:26+08:00',
+ 'description': '       还在羡慕BAT等公司的大流量的架构吗？让你的java系统引用解耦，互相独立,commonrpc '
+                '就可以办到。commonrpc 是一个以netty 传输协议框架为基础， 自定义 spri',
+ 'name': 'commonrpc',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/284520459/commonrpc.git',
+ 'updated_at': '2021-01-17T00:34:23+08:00',
+ 'user_url': 'https://gitee.com/28452'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=JAVA>
+{'created_at': '2020-09-12T09:33:15+08:00',
+ 'description': '无第三方依赖的公历(阳历)和农历(阴历、老黄历)工具，支持节假日、星座、儒略日、干支、生肖、节气、节日、彭祖百忌、每日宜忌、吉神宜趋凶煞宜忌、吉神(喜神/福神/财神/阳贵神/阴贵神)方位、胎神方位、冲',
+ 'name': '6tail',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/6tail/lunar-javascript.git',
+ 'updated_at': '2021-01-31T16:00:02+08:00',
+ 'user_url': 'https://gitee.com/6'}
+2021-02-02 23:13:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://gitlab.com/robots.txt> (referer: None)
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=C>
+{'created_at': '2015-05-31T13:01:24+08:00',
+ 'description': 'jfinal '
+                'cms是一个java开发的功能强大的信息咨询网站，采用了简洁强大的JFinal作为web框架，模板引擎用的是beetl，数据库用mysql，前端bootstrap框架。\r\n'
+                '支持oauth',
+ 'name': 'Fly的狐狸',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/jflyfox/jfinal_cms.git',
+ 'updated_at': '2021-02-01T11:29:07+08:00',
+ 'user_url': 'https://gitee.com/fl'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=JAVA>
+{'created_at': '2020-09-17T16:31:01+08:00',
+ 'description': 'The brand new JavaScript function library, and killed IE '
+                'friendly',
+ 'name': 'Ganxiaozhe',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/ganxiaozhe/gQuery.git',
+ 'updated_at': '2021-01-28T00:08:55+08:00',
+ 'user_url': 'https://gitee.com/ganxia'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=C>
+{'created_at': '2015-06-01T17:25:56+08:00',
+ 'description': 'csphere-希云 Docker实训课程-Dockerfile',
+ 'name': 'cyzhang',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/dockerf/docker-training.git',
+ 'updated_at': '2021-02-02T19:13:35+08:00',
+ 'user_url': 'https://gitee.com/doc'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=C>
+{'created_at': '2015-08-11T14:04:16+08:00',
+ 'description': '现代化java cms，由天津黑核科技有限公司开发，轻松支撑千万数据、千万PV；支持静态化，服务器端包含; '
+                '目前已经拥有全球0.0002%的用户，语言支持中、繁、日、英；是一个已走向海外的成熟CMS产',
+ 'name': 'sanluan',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/sanluan/PublicCMS.git',
+ 'updated_at': '2021-02-02T20:35:23+08:00',
+ 'user_url': 'https://gitee.com/san'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=C>
+{'created_at': '2015-08-15T20:26:58+08:00',
+ 'description': 'DoraCMS是基于Nodejs+eggjs+mongodb编写的一套内容管理系统，结构简单，较目前一些开源的cms，doracms易于拓展，特别适合前端开发工程师做二次开发。',
+ 'name': 'doramart',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/doramart/DoraCMS.git',
+ 'updated_at': '2021-02-02T22:15:55+08:00',
+ 'user_url': 'https://gitee.com/dora'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=C>
+{'created_at': '2015-10-28T17:40:23+08:00',
+ 'description': '一款基于ThinkJS(Node.js '
+                'MVC)和MySQL的功能强大的（PC端,手机端和微信公众平台）电子商务平台及CMS建站系统',
+ 'name': '阿特',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/arterli/CmsWing.git',
+ 'updated_at': '2021-02-02T17:54:10+08:00',
+ 'user_url': 'https://gitee.com/cms'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=C>
+{'created_at': '2015-10-28T22:49:44+08:00',
+ 'description': '完整开源！基于SpringBoot 2架构，前端基于vue、element '
+                'ui。每月28定期更新版本，为开发者提供上百套免费模板,同时提供适用的插件（文章、商城、微信、论坛、会员、评论、支付、积分、',
+ 'name': '铭飞',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/mingSoft/MCMS.git',
+ 'updated_at': '2021-02-02T17:50:33+08:00',
+ 'user_url': 'https://gitee.com/ming'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=C>
+{'created_at': '2016-01-09T15:39:09+08:00',
+ 'description': 'Jspxcms是灵活的、易扩展的开源网站内容管理系统(java cms,jsp '
+                'cms)，支持多组织、多站点、独立管理的网站群。',
+ 'name': 'jspxcms',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/jspxcms/Jspxcms.git',
+ 'updated_at': '2021-01-31T20:14:34+08:00',
+ 'user_url': 'https://gitee.com/jsp'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=C>
+{'created_at': '2017-03-15T14:20:56+08:00',
+ 'description': 'YznCMS(又名御宅男CMS)是基于最新TP5.1x框架和layui2.5x的后台管理系统。创立于2017年初，是一款完全免费开源的项目，他将是您轻松建站的首选利器。框架易于功能扩展，代码维护，方便',
+ 'name': '御宅男',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/ken678/YZNCMS.git',
+ 'updated_at': '2021-02-02T22:07:13+08:00',
+ 'user_url': 'https://gitee.com/ken678_a'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=C>
+{'created_at': '2017-06-11T14:38:12+08:00',
+ 'description': '基于poi的Excel和commons-csv的CSV操作组件，大大减少代码量，提高开发效率',
+ 'name': 'Crab2Died',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/Crab2Died/Excel4J.git',
+ 'updated_at': '2021-02-02T15:52:19+08:00',
+ 'user_url': 'https://gitee.com/Crab2'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=C>
+{'created_at': '2017-07-28T19:31:33+08:00',
+ 'description': 'springboot+mybatis+beetl开发的一款CMS，支持自定义内容模型、模板标签、全文检索、全站静态化等功能',
+ 'name': 'westboy',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/westboy/CicadasCMS.git',
+ 'updated_at': '2021-02-02T18:45:38+08:00',
+ 'user_url': 'https://gitee.com/wes'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=C>
+{'created_at': '2017-08-02T10:28:40+08:00',
+ 'description': 'Excelize 是 Go 语言编写的一个用来操作 Office Excel 文档类库，基于 ECMA-376 OOXML '
+                'Spec。可以使用它来读取、写入 XLSX 文件，相比较其他的开源类库，Ex',
+ 'name': 'xuri',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/xurime/excelize.git',
+ 'updated_at': '2021-02-02T22:29:56+08:00',
+ 'user_url': 'https://gitee.com/xu'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=C>
+{'created_at': '2018-04-23T23:23:51+08:00',
+ 'description': 'java '
+                '版CMS系统、基于java技术研发的内容管理系统、功能：栏目模板自定义、内容模型自定义、多个站点管理、在线模板页面编辑等功能、代码完全开源、MIT授权协议。QQ '
+                '群:   (2)185948',
+ 'name': 'OF',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/oufu/ofcms.git',
+ 'updated_at': '2021-01-31T19:13:44+08:00',
+ 'user_url': 'https://gitee.com/'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=C>
+{'created_at': '2018-08-22T10:39:41+08:00',
+ 'description': 'Dreamer CMS '
+                '梦想家内容发布系统是国内首款java开发的内容发布系统，采用最流行的springboot+thymeleaf框架搭建，灵活小巧，配置简单。标签化建站：不需要专业的后台开发技能，',
+ 'name': '王俊南',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/isoftforce/dreamer_cms.git',
+ 'updated_at': '2021-02-02T20:26:32+08:00',
+ 'user_url': 'https://gitee.com/isoftf'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=C>
+{'created_at': '2018-09-19T18:14:05+08:00',
+ 'description': '企业生产级百亿日PV高可用可拓展的RPC框架。理论上并发数量接近服务器带宽，客户端采用thrift协议，服务端支持netty和thrift的TThreadedSelectorServer半同步半异步线',
+ 'name': '张玉龙',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/a1234567891/koalas-rpc.git',
+ 'updated_at': '2021-02-02T16:31:18+08:00',
+ 'user_url': 'https://gitee.com/a123456'}
+2021-02-02 23:13:50 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=C>
+{'created_at': '2018-12-25T14:37:18+08:00',
+ 'description': 'SiteServer CMS 基于 .NET '
+                'CORE，能够以最低的成本、最少的人力投入在最短的时间内架设一个功能齐全、性能优异、规模庞大并易于维护的网站平台。',
+ 'name': 'siteserver',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/siteserver/cms.git',
+ 'updated_at': '2021-02-01T08:57:08+08:00',
+ 'user_url': 'https://gitee.com/sitese'}
+2021-02-02 23:13:51 [spiderLogger] INFO: Dump data from spider [gitee_spider]
+2021-02-02 23:13:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitee.com/api/v5/search/repositories?q=C>
+{'created_at': '2019-09-26T15:59:03+08:00',
+ 'description': '瀑布内容管理系统，采用SpringBoot + Apache Shiro + Mybatis Plus + '
+                'Thymeleaf 实现的内容管理系统(附带权限管理)，是搭建博客、网站的不二之选。致力于开',
+ 'name': 'LinZhaoguan',
+ 'private': False,
+ 'repo_url': 'https://gitee.com/LinZhaoguan/pb-cms.git',
+ 'updated_at': '2021-02-02T19:05:12+08:00',
+ 'user_url': 'https://gitee.com/LinZhao'}
+2021-02-02 23:13:51 [scrapy.core.engine] INFO: Closing spider (finished)
+2021-02-02 23:13:51 [spiderLogger] INFO: Spider [gitee_spider] closed, file closed
+2021-02-02 23:13:51 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1292,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 4,
+ 'downloader/response_bytes': 32335,
+ 'downloader/response_count': 4,
+ 'downloader/response_status_count/200': 4,
+ 'elapsed_time_seconds': 2.769925,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2021, 2, 2, 15, 13, 51, 27091),
+ 'item_scraped_count': 60,
+ 'log_count/DEBUG': 65,
+ 'log_count/INFO': 103,
+ 'response_received_count': 4,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2021, 2, 2, 15, 13, 48, 257166)}
+2021-02-02 23:13:51 [scrapy.core.engine] INFO: Spider closed (finished)
+2021-02-02 23:13:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://api.github.com/robots.txt> (referer: None)
+2021-02-02 23:13:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://gitlab.com/api/v4/search?search=Python&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ> (referer: None)
+2021-02-02 23:13:52 [spiderLogger] INFO: Parsing data from https://gitlab.com/api/v4/search?search=Python&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ
+2021-02-02 23:13:52 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=Python&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T15:07:52.888Z',
+ 'description': 'Python-based client module for communicating with the WEASEL '
+                'API server.',
+ 'name': 'Web Application Security Lab',
+ 'repo_url': 'https://gitlab.com/weasel-project/weasel-client',
+ 'updated_at': '2021-02-02T15:07:52.888Z',
+ 'user_url': 'https://gitlab.com/groups/weasel-project'}
+2021-02-02 23:13:52 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=Python&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T15:03:09.349Z',
+ 'description': "Exercices d'apprentissage du Python",
+ 'name': 'David Dennetiere',
+ 'repo_url': 'https://gitlab.com/ddennetiere/CoursPython',
+ 'updated_at': '2021-02-02T15:03:09.349Z',
+ 'user_url': 'https://gitlab.com/ddennetiere'}
+2021-02-02 23:13:52 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=Python&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T14:56:08.999Z',
+ 'description': 'Poprawiona klasa abstrakcyjna ze zwierzętami oraz klasy '
+                'pochodne',
+ 'name': 'Monika Rzepecka',
+ 'repo_url': 'https://gitlab.com/morzepecka/zadanie-z-pythona_10_8',
+ 'updated_at': '2021-02-02T14:56:08.999Z',
+ 'user_url': 'https://gitlab.com/morzepecka'}
+2021-02-02 23:13:52 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=Python&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T14:55:11.752Z',
+ 'description': 'Python binding to [Tango '
+                'C++](gitlab.com/tango-controls/cpptango)',
+ 'name': 'SuNLoCK',
+ 'repo_url': 'https://gitlab.com/catunlock/pytango',
+ 'updated_at': '2021-02-02T14:55:11.752Z',
+ 'user_url': 'https://gitlab.com/catunlock'}
+2021-02-02 23:13:52 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=Python&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T14:46:09.913Z',
+ 'description': 'Klasa zwierzę z dwoma metodami',
+ 'name': 'Monika Rzepecka',
+ 'repo_url': 'https://gitlab.com/morzepecka/zadanie-z-pythona_10_7',
+ 'updated_at': '2021-02-02T14:46:09.913Z',
+ 'user_url': 'https://gitlab.com/morzepecka'}
+2021-02-02 23:13:52 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=Python&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T14:02:32.772Z',
+ 'description': '',
+ 'name': 'lais amorim menezes',
+ 'repo_url': 'https://gitlab.com/laisamorimmenezes1/statistics-with-python-part-1',
+ 'updated_at': '2021-02-02T14:02:32.772Z',
+ 'user_url': 'https://gitlab.com/laisamorimmenezes1'}
+2021-02-02 23:13:52 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=Python&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T14:00:45.899Z',
+ 'description': '',
+ 'name': 'Kieran Laing',
+ 'repo_url': 'https://gitlab.com/KieranL99/python-pre-learning-tasks-published',
+ 'updated_at': '2021-02-02T14:00:45.899Z',
+ 'user_url': 'https://gitlab.com/KieranL99'}
+2021-02-02 23:13:52 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=Python&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T13:39:18.638Z',
+ 'description': 'A webmention receiver and publisher, written in Python (WSGI '
+                'application)',
+ 'name': 'Max Roeleveld',
+ 'repo_url': 'https://gitlab.com/dnzm/bussator',
+ 'updated_at': '2021-02-02T13:39:18.638Z',
+ 'user_url': 'https://gitlab.com/dnzm'}
+2021-02-02 23:13:52 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=Python&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T12:41:19.993Z',
+ 'description': 'This is an ordering-system in Python.',
+ 'name': 'notbraverider',
+ 'repo_url': 'https://gitlab.com/notbraverider/ordering-system',
+ 'updated_at': '2021-02-02T12:41:19.993Z',
+ 'user_url': 'https://gitlab.com/notbraverider'}
+2021-02-02 23:13:52 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=Python&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T11:48:26.487Z',
+ 'description': 'Advanced python learning.',
+ 'name': 'Yvon ZOBO',
+ 'repo_url': 'https://gitlab.com/hervzobo/microblog',
+ 'updated_at': '2021-02-02T14:24:47.342Z',
+ 'user_url': 'https://gitlab.com/hervzobo'}
+2021-02-02 23:13:52 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=Python&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T11:08:24.478Z',
+ 'description': 'Web blog\r\n'
+                '========\r\n'
+                '\r\n'
+                'This is a simple web blog to demo use cases with Hashicorp '
+                'Vault. The app comm',
+ 'name': 'Dylan Rosario',
+ 'repo_url': 'https://gitlab.com/soltrinox/web-blog-demo',
+ 'updated_at': '2021-02-02T11:08:24.478Z',
+ 'user_url': 'https://gitlab.com/soltrinox'}
+2021-02-02 23:13:52 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=Python&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T11:04:20.035Z',
+ 'description': 'Python Learning',
+ 'name': 'aftab shaikh',
+ 'repo_url': 'https://gitlab.com/iamaftabshaikh/python_learning',
+ 'updated_at': '2021-02-02T11:04:20.035Z',
+ 'user_url': 'https://gitlab.com/iamaftabshaikh'}
+2021-02-02 23:13:52 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=Python&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T10:58:41.091Z',
+ 'description': 'A Python Chess Library built purely in Python for use in '
+                'building chess applications and programs wi',
+ 'name': 'George Munyoro',
+ 'repo_url': 'https://gitlab.com/georgemunyoro/skaak',
+ 'updated_at': '2021-02-02T10:58:41.091Z',
+ 'user_url': 'https://gitlab.com/georgemunyoro'}
+2021-02-02 23:13:52 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=Python&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T10:53:37.574Z',
+ 'description': 'Fargate runner image, enriched with nvm, python3 and several '
+                'dependencies (yarn, gitlab-auto-mr, tra',
+ 'name': 'Mark Oswald',
+ 'repo_url': 'https://gitlab.com/mroswald/fargate_runner',
+ 'updated_at': '2021-02-02T15:09:30.075Z',
+ 'user_url': 'https://gitlab.com/mroswald'}
+2021-02-02 23:13:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://gitlab.com/api/v4/search?search=JAVA&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ> (referer: None)
+2021-02-02 23:13:52 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=Python&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T10:40:11.105Z',
+ 'description': '',
+ 'name': 'DROUET Mathis',
+ 'repo_url': 'https://gitlab.com/drouetmath/pythonchasse',
+ 'updated_at': '2021-02-02T10:40:11.105Z',
+ 'user_url': 'https://gitlab.com/drouetmath'}
+2021-02-02 23:13:52 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=Python&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T10:21:10.447Z',
+ 'description': 'A tiny wrapper meant to serve as an abstract layer over '
+                'various cloud backends abstracting the indiv',
+ 'name': 'Erik Skultety',
+ 'repo_url': 'https://gitlab.com/eskultety/libvirt-gitlab-cloudctl',
+ 'updated_at': '2021-02-02T12:23:15.685Z',
+ 'user_url': 'https://gitlab.com/eskultety'}
+2021-02-02 23:13:52 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=Python&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T09:56:18.433Z',
+ 'description': 'Dummy project to learn how to set up VSCode for C/C++ and '
+                'Python development.',
+ 'name': 'Henning Hermerschmidt',
+ 'repo_url': 'https://gitlab.com/hhermerschmidt/settingupvscode',
+ 'updated_at': '2021-02-02T09:56:18.433Z',
+ 'user_url': 'https://gitlab.com/hhermerschmidt'}
+2021-02-02 23:13:52 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=Python&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T08:02:00.219Z',
+ 'description': 'linear algebra library for Python - '
+                'https://pyarma.sourceforge.io\r\n',
+ 'name': 'conradsnicta',
+ 'repo_url': 'https://gitlab.com/conradsnicta/pyarma',
+ 'updated_at': '2021-02-02T11:26:08.931Z',
+ 'user_url': 'https://gitlab.com/conradsnicta'}
+2021-02-02 23:13:52 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=Python&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T05:50:50.050Z',
+ 'description': 'Python SAM Lambda module for generating an Excel cost report '
+                'with graphs, including month on month c',
+ 'name': 'Sreeram Meka',
+ 'repo_url': 'https://gitlab.com/sreeram.networking/aws-cost-explorer-report',
+ 'updated_at': '2021-02-02T05:50:50.050Z',
+ 'user_url': 'https://gitlab.com/sreeram.networking'}
+2021-02-02 23:13:52 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=Python&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T05:40:41.391Z',
+ 'description': 'Python linter using flake8 for the Digital Exam Management '
+                'System.',
+ 'name': 'DEMS',
+ 'repo_url': 'https://gitlab.com/dems-itu/dems_pylinter',
+ 'updated_at': '2021-02-02T08:57:23.121Z',
+ 'user_url': 'https://gitlab.com/groups/dems-itu'}
+2021-02-02 23:13:52 [spiderLogger] INFO: Parsing data from https://gitlab.com/api/v4/search?search=JAVA&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ
+2021-02-02 23:13:52 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=JAVA&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T15:08:02.939Z',
+ 'description': '',
+ 'name': 'Jon_Baker',
+ 'repo_url': 'https://gitlab.com/210104-appian/jon_baker/java-expense-reimbursement-server',
+ 'updated_at': '2021-02-02T15:08:02.939Z',
+ 'user_url': 'https://gitlab.com/groups/210104-appian/jon_baker'}
+2021-02-02 23:13:52 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=JAVA&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T15:03:27.983Z',
+ 'description': 'This is the Java code we use for this course',
+ 'name': 'Di Wu',
+ 'repo_url': 'https://gitlab.com/wudi312858/2021-ntnu-application-development-course',
+ 'updated_at': '2021-02-02T15:03:27.983Z',
+ 'user_url': 'https://gitlab.com/wudi312858'}
+2021-02-02 23:13:52 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=JAVA&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T14:44:35.036Z',
+ 'description': '',
+ 'name': 'NeoDaark',
+ 'repo_url': 'https://gitlab.com/daarkassassin/ud2-javaangular-3',
+ 'updated_at': '2021-02-02T14:44:35.036Z',
+ 'user_url': 'https://gitlab.com/daarkassassin'}
+2021-02-02 23:13:52 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=JAVA&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T14:44:15.705Z',
+ 'description': '',
+ 'name': 'NeoDaark',
+ 'repo_url': 'https://gitlab.com/daarkassassin/ud2-javaangular-2',
+ 'updated_at': '2021-02-02T14:44:15.705Z',
+ 'user_url': 'https://gitlab.com/daarkassassin'}
+2021-02-02 23:13:53 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=JAVA&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T14:41:54.066Z',
+ 'description': '',
+ 'name': 'en2455926',
+ 'repo_url': 'https://gitlab.com/en2455926/java-script-perusteet',
+ 'updated_at': '2021-02-02T14:41:54.066Z',
+ 'user_url': 'https://gitlab.com/en2455926'}
+2021-02-02 23:13:53 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=JAVA&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T14:31:06.359Z',
+ 'description': '',
+ 'name': 'NeoDaark',
+ 'repo_url': 'https://gitlab.com/daarkassassin/ud2-javaangular',
+ 'updated_at': '2021-02-02T14:31:06.359Z',
+ 'user_url': 'https://gitlab.com/daarkassassin'}
+2021-02-02 23:13:53 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=JAVA&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T14:26:56.723Z',
+ 'description': '',
+ 'name': 'Osman Burucu',
+ 'repo_url': 'https://gitlab.com/osmanburucu-ibm/authors-java-ee',
+ 'updated_at': '2021-02-02T14:26:56.723Z',
+ 'user_url': 'https://gitlab.com/osmanburucu-ibm'}
+2021-02-02 23:13:53 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=JAVA&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T14:20:32.852Z',
+ 'description': '',
+ 'name': 'JamaisMort',
+ 'repo_url': 'https://gitlab.com/JamaisMortDevelopers/TheArtOfJava',
+ 'updated_at': '2021-02-02T14:20:32.852Z',
+ 'user_url': 'https://gitlab.com/groups/JamaisMortDevelopers'}
+2021-02-02 23:13:53 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=JAVA&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T13:57:00.142Z',
+ 'description': '',
+ 'name': 'Irina Chaplygina',
+ 'repo_url': 'https://gitlab.com/irkka.hiiri/tsc-java-20',
+ 'updated_at': '2021-02-02T13:57:00.142Z',
+ 'user_url': 'https://gitlab.com/irkka.hiiri'}
+2021-02-02 23:13:53 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=JAVA&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T13:38:28.113Z',
+ 'description': '',
+ 'name': 'Juraj Kranj?ina',
+ 'repo_url': 'https://gitlab.com/jkranjcina/java-project',
+ 'updated_at': '2021-02-02T13:38:28.113Z',
+ 'user_url': 'https://gitlab.com/jkranjcina'}
+2021-02-02 23:13:53 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=JAVA&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T13:18:59.091Z',
+ 'description': "A TypeScript/JavaScript function to convert PlantUML's Work "
+                'Breakdown Structure to a Gantt chart.',
+ 'name': 'Petr Hoffmann',
+ 'repo_url': 'https://gitlab.com/hoffic.cz/plantuml-wbs-to-gantt',
+ 'updated_at': '2021-02-02T14:34:15.634Z',
+ 'user_url': 'https://gitlab.com/hoffic.cz'}
+2021-02-02 23:13:53 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=JAVA&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T12:56:34.371Z',
+ 'description': 'Desenvolvimento avançado com JavaScript ES6\r\n'
+                'Aprender a trabalhar com a mais nova atualização da lin',
+ 'name': 'Erick Graeff Petzold',
+ 'repo_url': 'https://gitlab.com/Erick.Graeff/js_avancado',
+ 'updated_at': '2021-02-02T12:56:34.371Z',
+ 'user_url': 'https://gitlab.com/Erick.Graeff'}
+2021-02-02 23:13:53 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=JAVA&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T12:48:49.024Z',
+ 'description': 'JavaFX Test App',
+ 'name': 'Egor Barkovsky',
+ 'repo_url': 'https://gitlab.com/woldermind/wldrmnd-eye',
+ 'updated_at': '2021-02-02T12:48:49.024Z',
+ 'user_url': 'https://gitlab.com/woldermind'}
+2021-02-02 23:13:53 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=JAVA&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T11:32:00.160Z',
+ 'description': None,
+ 'name': 'Denis Anenkov',
+ 'repo_url': 'https://gitlab.com/denisanenkov/task-manager-java-33',
+ 'updated_at': '2021-02-02T11:32:00.160Z',
+ 'user_url': 'https://gitlab.com/denisanenkov'}
+2021-02-02 23:13:53 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=JAVA&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T11:28:25.782Z',
+ 'description': '',
+ 'name': 'Hélio Rocha',
+ 'repo_url': 'https://gitlab.com/helio3/java-demo',
+ 'updated_at': '2021-02-02T11:28:25.782Z',
+ 'user_url': 'https://gitlab.com/helio3'}
+2021-02-02 23:13:53 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=JAVA&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T10:38:49.179Z',
+ 'description': '',
+ 'name': 'Ruslan Bakhtiyarov',
+ 'repo_url': 'https://gitlab.com/RusLan704/task-manager-java-26',
+ 'updated_at': '2021-02-02T10:38:49.179Z',
+ 'user_url': 'https://gitlab.com/RusLan704'}
+2021-02-02 23:13:53 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=JAVA&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T10:15:41.936Z',
+ 'description': '',
+ 'name': 'Julen Castillo Gómez',
+ 'repo_url': 'https://gitlab.com/Pochico/upgradehub-ejercicio-html-css-javascript',
+ 'updated_at': '2021-02-02T10:15:41.936Z',
+ 'user_url': 'https://gitlab.com/Pochico'}
+2021-02-02 23:13:53 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=JAVA&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T09:40:26.874Z',
+ 'description': 'Simple digital clock using html, css javascript',
+ 'name': 'Soumyo Roy',
+ 'repo_url': 'https://gitlab.com/Soumyo78/Basic-Digital-Clock',
+ 'updated_at': '2021-02-02T09:40:26.874Z',
+ 'user_url': 'https://gitlab.com/Soumyo78'}
+2021-02-02 23:13:53 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=JAVA&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T08:25:34.363Z',
+ 'description': 'Mainly drills from Codewars\r\n',
+ 'name': 'André Laurie',
+ 'repo_url': 'https://gitlab.com/andre-laurie/javascript-drills',
+ 'updated_at': '2021-02-02T08:25:34.363Z',
+ 'user_url': 'https://gitlab.com/andre-laurie'}
+2021-02-02 23:13:53 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=JAVA&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-02-02T07:33:35.091Z',
+ 'description': '',
+ 'name': 'Сергей Боряк',
+ 'repo_url': 'https://gitlab.com/boosoov/task-manager-java-31',
+ 'updated_at': '2021-02-02T07:33:35.091Z',
+ 'user_url': 'https://gitlab.com/boosoov'}
+2021-02-02 23:13:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://gitlab.com/api/v4/search?search=C&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ> (referer: None)
+2021-02-02 23:13:53 [spiderLogger] INFO: Parsing data from https://gitlab.com/api/v4/search?search=C&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ
+2021-02-02 23:13:53 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=C&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-01-29T09:34:28.087Z',
+ 'description': '',
+ 'name': 'flawweng',
+ 'repo_url': 'https://gitlab.com/frederic.lawwengsam/c',
+ 'updated_at': '2021-01-29T09:34:28.087Z',
+ 'user_url': 'https://gitlab.com/frederic.lawwengsam'}
+2021-02-02 23:13:53 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=C&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-01-25T19:20:52.762Z',
+ 'description': '',
+ 'name': 'Vinicius Martiori',
+ 'repo_url': 'https://gitlab.com/greenturtle/c',
+ 'updated_at': '2021-01-25T19:20:52.762Z',
+ 'user_url': 'https://gitlab.com/greenturtle'}
+2021-02-02 23:13:53 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=C&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-01-21T20:35:30.736Z',
+ 'description': '',
+ 'name': 'Martin Bligh',
+ 'repo_url': 'https://gitlab.com/mbligh/c',
+ 'updated_at': '2021-02-01T17:12:37.397Z',
+ 'user_url': 'https://gitlab.com/mbligh'}
+2021-02-02 23:13:53 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=C&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-01-14T16:01:47.327Z',
+ 'description': '',
+ 'name': 'Daria Panchenko',
+ 'repo_url': 'https://gitlab.com/dia_/c',
+ 'updated_at': '2021-01-14T16:01:47.327Z',
+ 'user_url': 'https://gitlab.com/dia_'}
+2021-02-02 23:13:53 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=C&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-01-12T19:28:24.211Z',
+ 'description': '',
+ 'name': 'Cayo',
+ 'repo_url': 'https://gitlab.com/MrCayoCosta/c',
+ 'updated_at': '2021-01-12T19:28:24.211Z',
+ 'user_url': 'https://gitlab.com/MrCayoCosta'}
+2021-02-02 23:13:53 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=C&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-01-11T18:03:09.828Z',
+ 'description': '',
+ 'name': 'P.Rabier',
+ 'repo_url': 'https://gitlab.com/rabierpaul15/c',
+ 'updated_at': '2021-01-11T18:03:09.828Z',
+ 'user_url': 'https://gitlab.com/rabierpaul15'}
+2021-02-02 23:13:53 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=C&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-01-04T12:09:16.340Z',
+ 'description': 'My C practicing repo',
+ 'name': 'artnoi',
+ 'repo_url': 'https://gitlab.com/artnoi/c',
+ 'updated_at': '2021-01-04T19:34:10.793Z',
+ 'user_url': 'https://gitlab.com/artnoi'}
+2021-02-02 23:13:53 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=C&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2021-01-02T20:24:13.962Z',
+ 'description': 'Repository for my c and c++ scripts',
+ 'name': 'Peter González Roa',
+ 'repo_url': 'https://gitlab.com/peterglezroa/c',
+ 'updated_at': '2021-01-02T20:24:13.962Z',
+ 'user_url': 'https://gitlab.com/peterglezroa'}
+2021-02-02 23:13:53 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=C&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2020-12-28T02:50:00.339Z',
+ 'description': 'Simple but useful C programs.',
+ 'name': 'base-16',
+ 'repo_url': 'https://gitlab.com/base-16/C',
+ 'updated_at': '2020-12-29T00:43:17.052Z',
+ 'user_url': 'https://gitlab.com/base-16'}
+2021-02-02 23:13:53 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=C&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2020-12-25T18:13:46.842Z',
+ 'description': '',
+ 'name': 'HackerRank',
+ 'repo_url': 'https://gitlab.com/tyler-personal/challenges/hackerrank/c',
+ 'updated_at': '2020-12-25T18:13:46.842Z',
+ 'user_url': 'https://gitlab.com/groups/tyler-personal/challenges/hackerrank'}
+2021-02-02 23:13:53 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=C&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2020-12-23T06:09:42.122Z',
+ 'description': '',
+ 'name': 'Tiến Hưng',
+ 'repo_url': 'https://gitlab.com/phunghung2342000/c',
+ 'updated_at': '2020-12-23T06:09:42.122Z',
+ 'user_url': 'https://gitlab.com/phunghung2342000'}
+2021-02-02 23:13:53 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=C&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2020-12-21T06:04:00.688Z',
+ 'description': 'C++ is a general-purpose programming language',
+ 'name': 'Md Ariful Islam',
+ 'repo_url': 'https://gitlab.com/stupeed/c',
+ 'updated_at': '2020-12-21T06:04:00.688Z',
+ 'user_url': 'https://gitlab.com/stupeed'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=C&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2020-12-20T01:37:31.044Z',
+ 'description': 'My collection of C code.',
+ 'name': 'Ohio2',
+ 'repo_url': 'https://gitlab.com/Ohio2/c',
+ 'updated_at': '2020-12-20T01:37:31.044Z',
+ 'user_url': 'https://gitlab.com/Ohio2'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=C&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2020-12-14T14:21:47.376Z',
+ 'description': '',
+ 'name': 'briancol07',
+ 'repo_url': 'https://gitlab.com/briancol07/c',
+ 'updated_at': '2020-12-14T14:21:47.376Z',
+ 'user_url': 'https://gitlab.com/briancol07'}
+2021-02-02 23:13:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://api.github.com/search/repositories?q=JAVA&per_page=30> (referer: None)
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=C&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2020-12-08T19:07:30.155Z',
+ 'description': '',
+ 'name': 'Bartosz Szczesny',
+ 'repo_url': 'https://gitlab.com/bszcz/c',
+ 'updated_at': '2020-12-08T19:07:30.155Z',
+ 'user_url': 'https://gitlab.com/bszcz'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=C&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2020-12-03T06:57:26.730Z',
+ 'description': 'This is the repository , where elementary level C programs '
+                'are there , anyone can make these program',
+ 'name': 'Subhankar Karmakar',
+ 'repo_url': 'https://gitlab.com/Subhankar2000/C',
+ 'updated_at': '2020-12-03T06:57:26.730Z',
+ 'user_url': 'https://gitlab.com/Subhankar2000'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=C&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2020-12-02T13:35:41.568Z',
+ 'description': 'My C programs.',
+ 'name': 'Marc Partensky',
+ 'repo_url': 'https://gitlab.com/MarcPartensky/C',
+ 'updated_at': '2020-12-02T13:35:41.568Z',
+ 'user_url': 'https://gitlab.com/MarcPartensky'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=C&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2020-12-01T05:44:31.439Z',
+ 'description': None,
+ 'name': 'Datul13',
+ 'repo_url': 'https://gitlab.com/Datul13/C',
+ 'updated_at': '2020-12-01T05:44:31.439Z',
+ 'user_url': 'https://gitlab.com/Datul13'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=C&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2020-11-27T09:05:04.546Z',
+ 'description': '',
+ 'name': 'Claire grynberg',
+ 'repo_url': 'https://gitlab.com/clairesg2019/c',
+ 'updated_at': '2020-11-27T09:05:04.546Z',
+ 'user_url': 'https://gitlab.com/clairesg2019'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [gitlab_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://gitlab.com/api/v4/search?search=C&scope=projects&private_token=ZW9v-iPAqCsWzdQRqecZ>
+{'created_at': '2020-11-24T03:43:09.468Z',
+ 'description': '',
+ 'name': 'szzdlab',
+ 'repo_url': 'https://gitlab.com/szzdlab/c',
+ 'updated_at': '2020-11-24T03:43:09.468Z',
+ 'user_url': 'https://gitlab.com/szzdlab'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Parsing data from https://api.github.com/search/repositories?q=JAVA&per_page=30
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=JAVA&per_page=30>
+{'created_at': '2016-07-16T10:21:02Z',
+ 'description': 'All Algorithms implemented in Java',
+ 'name': 'TheAlgorithms',
+ 'private': False,
+ 'repo_url': 'https://github.com/TheAlgorithms/Java',
+ 'updated_at': '2021-02-02T15:13:30Z',
+ 'user_url': 'https://github.com/TheAlgorithms'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=JAVA&per_page=30>
+{'created_at': '2015-11-25T07:30:08Z',
+ 'description': '27天成为Java大神',
+ 'name': 'DuGuQiuBai',
+ 'private': False,
+ 'repo_url': 'https://github.com/DuGuQiuBai/Java',
+ 'updated_at': '2021-02-02T13:28:49Z',
+ 'user_url': 'https://github.com/DuGuQiuBai'}
+2021-02-02 23:13:54 [scrapy.core.engine] INFO: Closing spider (finished)
+2021-02-02 23:13:54 [spiderLogger] INFO: Spider [gitlab_spider] closed, file closed
+2021-02-02 23:13:54 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1608,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 4,
+ 'downloader/response_bytes': 16071,
+ 'downloader/response_count': 4,
+ 'downloader/response_status_count/200': 4,
+ 'elapsed_time_seconds': 5.959841,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2021, 2, 2, 15, 13, 54, 267004),
+ 'item_scraped_count': 60,
+ 'log_count/DEBUG': 132,
+ 'log_count/INFO': 151,
+ 'response_received_count': 4,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2021, 2, 2, 15, 13, 48, 307163)}
+2021-02-02 23:13:54 [scrapy.core.engine] INFO: Spider closed (finished)
+2021-02-02 23:13:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://api.github.com/search/repositories?q=Python&per_page=30> (referer: None)
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=JAVA&per_page=30>
+{'created_at': '2018-05-07T13:27:00Z',
+ 'description': '「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选 '
+                'JavaGuide！',
+ 'name': 'Snailclimb',
+ 'private': False,
+ 'repo_url': 'https://github.com/Snailclimb/JavaGuide',
+ 'updated_at': '2021-02-02T14:57:33Z',
+ 'user_url': 'https://github.com/Snailclimb'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=JAVA&per_page=30>
+{'created_at': '2013-04-19T14:16:25Z',
+ 'description': 'Java related code',
+ 'name': 'hmkcode',
+ 'private': False,
+ 'repo_url': 'https://github.com/hmkcode/Java',
+ 'updated_at': '2021-02-02T10:37:38Z',
+ 'user_url': 'https://github.com/hmkcode'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=JAVA&per_page=30>
+{'created_at': '2016-12-08T14:01:46Z',
+ 'description': 'java项目实战练习',
+ 'name': 'HelloWorld521',
+ 'private': False,
+ 'repo_url': 'https://github.com/HelloWorld521/Java',
+ 'updated_at': '2021-02-02T07:55:36Z',
+ 'user_url': 'https://github.com/HelloWorld521'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=JAVA&per_page=30>
+{'created_at': '2017-05-08T21:52:58Z',
+ 'description': 'Official Java client library for kubernetes',
+ 'name': 'kubernetes-client',
+ 'private': False,
+ 'repo_url': 'https://github.com/kubernetes-client/java',
+ 'updated_at': '2021-02-02T10:39:03Z',
+ 'user_url': 'https://github.com/kubernetes-client'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=JAVA&per_page=30>
+{'created_at': '2017-08-03T01:24:34Z',
+ 'description': '存放JAVA开发的设计思想、算法：《剑指Offer》、《编程珠玑》、《深入理解Java虚拟机：JVM高级特性与最佳实践》、《重构-改善既有代码的设计 '
+                '中文版》、《clean_code(中文完整版)》、',
+ 'name': 'singgel',
+ 'private': False,
+ 'repo_url': 'https://github.com/singgel/JAVA',
+ 'updated_at': '2021-02-02T13:28:36Z',
+ 'user_url': 'https://github.com/singgel'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Parsing data from https://api.github.com/search/repositories?q=Python&per_page=30
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=Python&per_page=30>
+{'created_at': '2016-07-16T09:44:01Z',
+ 'description': 'All Algorithms implemented in Python',
+ 'name': 'TheAlgorithms',
+ 'private': False,
+ 'repo_url': 'https://github.com/TheAlgorithms/Python',
+ 'updated_at': '2021-02-02T15:11:49Z',
+ 'user_url': 'https://github.com/TheAlgorithms'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=JAVA&per_page=30>
+{'created_at': '2014-11-18T11:25:02Z',
+ 'description': '一些用Java写的小东西（没什么用，大家不要star了😄）',
+ 'name': 'gaopu',
+ 'private': False,
+ 'repo_url': 'https://github.com/gaopu/Java',
+ 'updated_at': '2021-02-01T07:48:21Z',
+ 'user_url': 'https://github.com/gaopu'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=Python&per_page=30>
+{'created_at': '2011-11-30T09:04:08Z',
+ 'description': 'My Python Examples',
+ 'name': 'geekcomputers',
+ 'private': False,
+ 'repo_url': 'https://github.com/geekcomputers/Python',
+ 'updated_at': '2021-02-02T12:56:15Z',
+ 'user_url': 'https://github.com/geekcomputers'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=JAVA&per_page=30>
+{'created_at': '2013-02-20T00:08:04Z',
+ 'description': 'PubNub Java-based APIs for core Java, Android',
+ 'name': 'pubnub',
+ 'private': False,
+ 'repo_url': 'https://github.com/pubnub/java',
+ 'updated_at': '2021-02-01T03:22:55Z',
+ 'user_url': 'https://github.com/pubnub'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=Python&per_page=30>
+{'created_at': '2016-06-23T15:15:23Z',
+ 'description': 'Python脚本。模拟登录知乎， 爬虫，操作excel，微信公众号，远程开机',
+ 'name': 'injetlee',
+ 'private': False,
+ 'repo_url': 'https://github.com/injetlee/Python',
+ 'updated_at': '2021-02-02T11:56:26Z',
+ 'user_url': 'https://github.com/injetlee'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=JAVA&per_page=30>
+{'created_at': '2016-12-05T12:15:21Z',
+ 'description': 'jsoniter (json-iterator) is fast and flexible JSON parser '
+                'available in Java and Go',
+ 'name': 'json-iterator',
+ 'private': False,
+ 'repo_url': 'https://github.com/json-iterator/java',
+ 'updated_at': '2021-01-25T13:11:07Z',
+ 'user_url': 'https://github.com/json-iterator'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=Python&per_page=30>
+{'created_at': '2017-06-07T11:52:22Z',
+ 'description': '最良心的 Python 教程：',
+ 'name': 'TwoWater',
+ 'private': False,
+ 'repo_url': 'https://github.com/TwoWater/Python',
+ 'updated_at': '2021-02-02T14:02:18Z',
+ 'user_url': 'https://github.com/TwoWater'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=JAVA&per_page=30>
+{'created_at': '2019-10-20T06:02:33Z',
+ 'description': None,
+ 'name': 'bjmashibing',
+ 'private': False,
+ 'repo_url': 'https://github.com/bjmashibing/java',
+ 'updated_at': '2021-01-30T13:54:54Z',
+ 'user_url': 'https://github.com/bjmashibing'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=Python&per_page=30>
+{'created_at': '2014-11-28T01:39:43Z',
+ 'description': 'Show Me the Code Python version.',
+ 'name': 'Show-Me-the-Code',
+ 'private': False,
+ 'repo_url': 'https://github.com/Show-Me-the-Code/python',
+ 'updated_at': '2021-02-01T14:13:28Z',
+ 'user_url': 'https://github.com/Show-Me-the-Code'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=JAVA&per_page=30>
+{'created_at': '2012-03-14T18:15:20Z',
+ 'description': 'Development repository for the java cookbook',
+ 'name': 'sous-chefs',
+ 'private': False,
+ 'repo_url': 'https://github.com/sous-chefs/java',
+ 'updated_at': '2021-01-25T18:24:51Z',
+ 'user_url': 'https://github.com/sous-chefs'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=Python&per_page=30>
+{'created_at': '2016-10-31T20:08:03Z',
+ 'description': 'Official Python client library for kubernetes',
+ 'name': 'kubernetes-client',
+ 'private': False,
+ 'repo_url': 'https://github.com/kubernetes-client/python',
+ 'updated_at': '2021-02-02T07:15:15Z',
+ 'user_url': 'https://github.com/kubernetes-client'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=JAVA&per_page=30>
+{'created_at': '2016-12-07T19:15:31Z',
+ 'description': '30 Day Vanilla JS Challenge',
+ 'name': 'wesbos',
+ 'private': False,
+ 'repo_url': 'https://github.com/wesbos/JavaScript30',
+ 'updated_at': '2021-02-02T13:40:44Z',
+ 'user_url': 'https://github.com/wesbos'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=Python&per_page=30>
+{'created_at': '2012-09-06T07:00:59Z',
+ 'description': 'Python Books && Courses',
+ 'name': 'xxg1413',
+ 'private': False,
+ 'repo_url': 'https://github.com/xxg1413/python',
+ 'updated_at': '2021-01-31T12:59:47Z',
+ 'user_url': 'https://github.com/xxg1413'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=JAVA&per_page=30>
+{'created_at': '2014-01-11T16:34:52Z',
+ 'description': 'Java Dockerfile for trusted automated Docker builds.',
+ 'name': 'dockerfile',
+ 'private': False,
+ 'repo_url': 'https://github.com/dockerfile/java',
+ 'updated_at': '2021-01-06T20:25:29Z',
+ 'user_url': 'https://github.com/dockerfile'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=Python&per_page=30>
+{'created_at': '2016-08-10T14:24:36Z',
+ 'description': 'Python Data Science Handbook: full text in Jupyter Notebooks',
+ 'name': 'jakevdp',
+ 'private': False,
+ 'repo_url': 'https://github.com/jakevdp/PythonDataScienceHandbook',
+ 'updated_at': '2021-02-02T15:07:19Z',
+ 'user_url': 'https://github.com/jakevdp'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=JAVA&per_page=30>
+{'created_at': '2016-04-25T16:39:57Z',
+ 'description': 'Java的学习之路，学习JavaEE以及框架时候的一些项目，结合博客和源码，让你受益匪浅，适合Java初学者和刚入门开始学框架者',
+ 'name': 'chenhaoxiang',
+ 'private': False,
+ 'repo_url': 'https://github.com/chenhaoxiang/Java',
+ 'updated_at': '2021-01-28T10:41:12Z',
+ 'user_url': 'https://github.com/chenhaoxiang'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=Python&per_page=30>
+{'created_at': '2015-06-15T02:32:30Z',
+ 'description': 'Python code for YouTube videos.',
+ 'name': 'joeyajames',
+ 'private': False,
+ 'repo_url': 'https://github.com/joeyajames/Python',
+ 'updated_at': '2021-01-31T12:48:34Z',
+ 'user_url': 'https://github.com/joeyajames'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=JAVA&per_page=30>
+{'created_at': '2012-11-01T23:13:50Z',
+ 'description': 'JavaScript Style Guide',
+ 'name': 'airbnb',
+ 'private': False,
+ 'repo_url': 'https://github.com/airbnb/javascript',
+ 'updated_at': '2021-02-02T15:10:57Z',
+ 'user_url': 'https://github.com/airbnb'}
+2021-02-02 23:13:54 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=Python&per_page=30>
+{'created_at': '2014-06-20T22:55:57Z',
+ 'description': 'Docker Official Image packaging for Python',
+ 'name': 'docker-library',
+ 'private': False,
+ 'repo_url': 'https://github.com/docker-library/python',
+ 'updated_at': '2021-02-02T09:21:43Z',
+ 'user_url': 'https://github.com/docker-library'}
+2021-02-02 23:13:55 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=JAVA&per_page=30>
+{'created_at': '2019-11-12T04:26:18Z',
+ 'description': '【Java面试+Java学习指南】 一份涵盖大部分Java程序员所需要掌握的核心知识。',
+ 'name': 'AobingJava',
+ 'private': False,
+ 'repo_url': 'https://github.com/AobingJava/JavaFamily',
+ 'updated_at': '2021-02-02T15:09:49Z',
+ 'user_url': 'https://github.com/AobingJava'}
+2021-02-02 23:13:55 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=Python&per_page=30>
+{'created_at': '2014-02-28T03:48:58Z',
+ 'description': 'Exercism exercises in Python.',
+ 'name': 'exercism',
+ 'private': False,
+ 'repo_url': 'https://github.com/exercism/python',
+ 'updated_at': '2021-02-02T03:08:09Z',
+ 'user_url': 'https://github.com/exercism'}
+2021-02-02 23:13:55 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=JAVA&per_page=30>
+{'created_at': '2014-02-28T00:45:13Z',
+ 'description': 'Exercism exercises in Java.',
+ 'name': 'exercism',
+ 'private': False,
+ 'repo_url': 'https://github.com/exercism/java',
+ 'updated_at': '2021-02-01T14:39:56Z',
+ 'user_url': 'https://github.com/exercism'}
+2021-02-02 23:13:55 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=Python&per_page=30>
+{'created_at': '2012-03-14T18:37:54Z',
+ 'description': 'THIS COOKBOOK IS DEPRECATED – Chef cookbook to install Python '
+                'and related tools',
+ 'name': 'poise',
+ 'private': False,
+ 'repo_url': 'https://github.com/poise/python',
+ 'updated_at': '2020-11-19T15:34:06Z',
+ 'user_url': 'https://github.com/poise'}
+2021-02-02 23:13:55 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=JAVA&per_page=30>
+{'created_at': '2014-06-09T17:44:57Z',
+ 'description': 'Structurizr for Java',
+ 'name': 'structurizr',
+ 'private': False,
+ 'repo_url': 'https://github.com/structurizr/java',
+ 'updated_at': '2021-02-02T12:56:05Z',
+ 'user_url': 'https://github.com/structurizr'}
+2021-02-02 23:13:55 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=Python&per_page=30>
+{'created_at': '2014-06-27T21:00:06Z',
+ 'description': 'A curated list of awesome Python frameworks, libraries, '
+                'software and resources',
+ 'name': 'vinta',
+ 'private': False,
+ 'repo_url': 'https://github.com/vinta/awesome-python',
+ 'updated_at': '2021-02-02T15:02:22Z',
+ 'user_url': 'https://github.com/vinta'}
+2021-02-02 23:13:55 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=JAVA&per_page=30>
+{'created_at': '2018-03-24T07:47:04Z',
+ 'description': '📝 Algorithms and data structures implemented in JavaScript '
+                'with explanations and links to further re',
+ 'name': 'trekhleb',
+ 'private': False,
+ 'repo_url': 'https://github.com/trekhleb/javascript-algorithms',
+ 'updated_at': '2021-02-02T15:06:55Z',
+ 'user_url': 'https://github.com/trekhleb'}
+2021-02-02 23:13:55 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=Python&per_page=30>
+{'created_at': '2018-03-01T16:05:52Z',
+ 'description': 'Python - 100天从新手到大师',
+ 'name': 'jackfrued',
+ 'private': False,
+ 'repo_url': 'https://github.com/jackfrued/Python-100-Days',
+ 'updated_at': '2021-02-02T14:07:32Z',
+ 'user_url': 'https://github.com/jackfrued'}
+2021-02-02 23:13:55 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=JAVA&per_page=30>
+{'created_at': '2018-10-06T11:38:30Z',
+ 'description': '😮 互联网 Java '
+                '工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识，后端同学必看，前端同学也可学习',
+ 'name': 'doocs',
+ 'private': False,
+ 'repo_url': 'https://github.com/doocs/advanced-java',
+ 'updated_at': '2021-02-02T14:37:21Z',
+ 'user_url': 'https://github.com/doocs'}
+2021-02-02 23:13:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://api.github.com/search/repositories?q=C&per_page=30> (referer: None)
+2021-02-02 23:13:55 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=Python&per_page=30>
+{'created_at': '2016-03-21T09:34:43Z',
+ 'description': 'Python sample codes for robotics algorithms.',
+ 'name': 'AtsushiSakai',
+ 'private': False,
+ 'repo_url': 'https://github.com/AtsushiSakai/PythonRobotics',
+ 'updated_at': '2021-02-02T13:54:47Z',
+ 'user_url': 'https://github.com/AtsushiSakai'}
+2021-02-02 23:13:55 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=JAVA&per_page=30>
+{'created_at': '2021-01-28T11:56:41Z',
+ 'description': None,
+ 'name': 'P488-Git',
+ 'private': False,
+ 'repo_url': 'https://github.com/P488-Git/Java',
+ 'updated_at': '2021-02-02T11:55:11Z',
+ 'user_url': 'https://github.com/P488-Git'}
+2021-02-02 23:13:56 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=Python&per_page=30>
+{'created_at': '2018-02-12T19:30:10Z',
+ 'description': 'Course Files for Complete Python 3 Bootcamp Course on Udemy',
+ 'name': 'Pierian-Data',
+ 'private': False,
+ 'repo_url': 'https://github.com/Pierian-Data/Complete-Python-3-Bootcamp',
+ 'updated_at': '2021-02-02T14:07:40Z',
+ 'user_url': 'https://github.com/Pierian-Data'}
+2021-02-02 23:13:56 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=JAVA&per_page=30>
+{'created_at': '2014-03-16T17:25:43Z',
+ 'description': 'Modern Java - A Guide to Java 8',
+ 'name': 'winterbe',
+ 'private': False,
+ 'repo_url': 'https://github.com/winterbe/java8-tutorial',
+ 'updated_at': '2021-02-02T13:38:05Z',
+ 'user_url': 'https://github.com/winterbe'}
+2021-02-02 23:13:56 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=Python&per_page=30>
+{'created_at': '2013-08-07T06:08:24Z',
+ 'description': 'python常用脚本',
+ 'name': 'joe011',
+ 'private': False,
+ 'repo_url': 'https://github.com/joe011/python',
+ 'updated_at': '2021-01-25T21:50:29Z',
+ 'user_url': 'https://github.com/joe011'}
+2021-02-02 23:13:56 [spiderLogger] INFO: Parsing data from https://api.github.com/search/repositories?q=C&per_page=30
+2021-02-02 23:13:56 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=C&per_page=30>
+{'created_at': '2016-07-16T10:17:03Z',
+ 'description': 'Collection of various algorithms in mathematics, machine '
+                'learning, computer science, physics, etc im',
+ 'name': 'TheAlgorithms',
+ 'private': False,
+ 'repo_url': 'https://github.com/TheAlgorithms/C',
+ 'updated_at': '2021-02-02T15:09:35Z',
+ 'user_url': 'https://github.com/TheAlgorithms'}
+2021-02-02 23:13:56 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=JAVA&per_page=30>
+{'created_at': '2018-10-05T06:59:11Z',
+ 'description': '✏️  计算机基础☕️ Java👫 面向对象📝 编程题💾 数据库🔨 消息中间件📖 系统设计💻 工具🔧 进阶指南🙊 参考资料',
+ 'name': 'DuHouAn',
+ 'private': False,
+ 'repo_url': 'https://github.com/DuHouAn/Java',
+ 'updated_at': '2021-02-01T05:13:45Z',
+ 'user_url': 'https://github.com/DuHouAn'}
+2021-02-02 23:13:56 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=Python&per_page=30>
+{'created_at': '2015-05-15T05:29:05Z',
+ 'description': 'Learn Python 3 Sample Code',
+ 'name': 'michaelliao',
+ 'private': False,
+ 'repo_url': 'https://github.com/michaelliao/learn-python3',
+ 'updated_at': '2021-02-02T11:05:56Z',
+ 'user_url': 'https://github.com/michaelliao'}
+2021-02-02 23:13:56 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=C&per_page=30>
+{'created_at': '2015-03-02T06:31:32Z',
+ 'description': 'Compile and execute C "scripts" in one go!',
+ 'name': 'ryanmjacobs',
+ 'private': False,
+ 'repo_url': 'https://github.com/ryanmjacobs/c',
+ 'updated_at': '2021-01-27T03:40:29Z',
+ 'user_url': 'https://github.com/ryanmjacobs'}
+2021-02-02 23:13:56 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=JAVA&per_page=30>
+{'created_at': '2014-08-09T16:45:18Z',
+ 'description': 'Design patterns implemented in Java',
+ 'name': 'iluwatar',
+ 'private': False,
+ 'repo_url': 'https://github.com/iluwatar/java-design-patterns',
+ 'updated_at': '2021-02-02T14:46:50Z',
+ 'user_url': 'https://github.com/iluwatar'}
+2021-02-02 23:13:56 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=Python&per_page=30>
+{'created_at': '2015-05-08T04:41:52Z',
+ 'description': '《笨方法学 Python》（Learn Python the Hard Way）学习笔记',
+ 'name': '521xueweihan',
+ 'private': False,
+ 'repo_url': 'https://github.com/521xueweihan/python',
+ 'updated_at': '2021-02-02T10:35:55Z',
+ 'user_url': 'https://github.com/521xueweihan'}
+2021-02-02 23:13:56 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=C&per_page=30>
+{'created_at': '2015-06-03T11:56:43Z',
+ 'description': 'linux下的C语言及关于kernel的介绍',
+ 'name': 'yaouser',
+ 'private': False,
+ 'repo_url': 'https://github.com/yaouser/C',
+ 'updated_at': '2021-02-01T13:47:04Z',
+ 'user_url': 'https://github.com/yaouser'}
+2021-02-02 23:13:56 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=JAVA&per_page=30>
+{'created_at': '2015-12-13T19:04:57Z',
+ 'description': 'Java code for YouTube videos',
+ 'name': 'joeyajames',
+ 'private': False,
+ 'repo_url': 'https://github.com/joeyajames/Java',
+ 'updated_at': '2021-01-26T06:37:45Z',
+ 'user_url': 'https://github.com/joeyajames'}
+2021-02-02 23:13:56 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=Python&per_page=30>
+{'created_at': '2018-06-08T01:33:56Z',
+ 'description': 'Python3编写的各种大小程序，包含从零学Python系列、12306抢票、省市区地址库以及系列网站爬虫等学习源码',
+ 'name': 'gxcuizy',
+ 'private': False,
+ 'repo_url': 'https://github.com/gxcuizy/Python',
+ 'updated_at': '2021-02-02T05:15:08Z',
+ 'user_url': 'https://github.com/gxcuizy'}
+2021-02-02 23:13:56 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=C&per_page=30>
+{'created_at': '2017-08-18T19:45:10Z',
+ 'description': 'A collaborative listening room using Spotify',
+ 'name': 'JMPerez',
+ 'private': False,
+ 'repo_url': 'https://github.com/JMPerez/c',
+ 'updated_at': '2021-01-15T07:26:16Z',
+ 'user_url': 'https://github.com/JMPerez'}
+2021-02-02 23:13:56 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=JAVA&per_page=30>
+{'created_at': '2014-01-12T03:18:43Z',
+ 'description': '这是我用Java写的一些程序',
+ 'name': 'bottleleung',
+ 'private': False,
+ 'repo_url': 'https://github.com/bottleleung/Java',
+ 'updated_at': '2021-01-04T10:02:27Z',
+ 'user_url': 'https://github.com/bottleleung'}
+2021-02-02 23:13:56 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=Python&per_page=30>
+{'created_at': '2014-08-19T03:13:07Z',
+ 'description': '《Python Cookbook》 3rd Edition Translation',
+ 'name': 'yidao620c',
+ 'private': False,
+ 'repo_url': 'https://github.com/yidao620c/python3-cookbook',
+ 'updated_at': '2021-02-02T14:36:34Z',
+ 'user_url': 'https://github.com/yidao620c'}
+2021-02-02 23:13:56 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=C&per_page=30>
+{'created_at': '2015-06-14T22:04:00Z',
+ 'description': 'small self hosting C compiler',
+ 'name': 'andrewchambers',
+ 'private': False,
+ 'repo_url': 'https://github.com/andrewchambers/c',
+ 'updated_at': '2021-01-25T19:37:06Z',
+ 'user_url': 'https://github.com/andrewchambers'}
+2021-02-02 23:13:56 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=JAVA&per_page=30>
+{'created_at': '2016-12-13T02:13:58Z',
+ 'description': 'Spring、SpringMVC、MyBatis、Spring Boot案例',
+ 'name': 'lenve',
+ 'private': False,
+ 'repo_url': 'https://github.com/lenve/JavaEETest',
+ 'updated_at': '2021-02-01T07:52:53Z',
+ 'user_url': 'https://github.com/lenve'}
+2021-02-02 23:13:56 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=Python&per_page=30>
+{'created_at': '2015-01-22T08:44:20Z',
+ 'description': 'Python使用记录',
+ 'name': 'zhanghe06',
+ 'private': False,
+ 'repo_url': 'https://github.com/zhanghe06/python',
+ 'updated_at': '2021-01-02T08:03:47Z',
+ 'user_url': 'https://github.com/zhanghe06'}
+2021-02-02 23:13:56 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=C&per_page=30>
+{'created_at': '2015-01-26T11:19:13Z',
+ 'description': 'A static analyzer for Java, C, C++, and Objective-C',
+ 'name': 'facebook',
+ 'private': False,
+ 'repo_url': 'https://github.com/facebook/infer',
+ 'updated_at': '2021-02-02T13:50:23Z',
+ 'user_url': 'https://github.com/facebook'}
+2021-02-02 23:13:56 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=JAVA&per_page=30>
+{'created_at': '2013-01-08T20:11:48Z',
+ 'description': 'RxJava – Reactive Extensions for the JVM – a library for '
+                'composing asynchronous and event-based prog',
+ 'name': 'ReactiveX',
+ 'private': False,
+ 'repo_url': 'https://github.com/ReactiveX/RxJava',
+ 'updated_at': '2021-02-02T14:31:41Z',
+ 'user_url': 'https://github.com/ReactiveX'}
+2021-02-02 23:13:56 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=Python&per_page=30>
+{'created_at': '2015-08-19T03:48:30Z',
+ 'description': 'Python入门网络爬虫之精华版',
+ 'name': 'lining0806',
+ 'private': False,
+ 'repo_url': 'https://github.com/lining0806/PythonSpiderNotes',
+ 'updated_at': '2021-02-02T08:29:45Z',
+ 'user_url': 'https://github.com/lining0806'}
+2021-02-02 23:13:56 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=C&per_page=30>
+{'created_at': '2014-05-25T16:51:23Z',
+ 'description': 'stb single-file public domain libraries for C/C++',
+ 'name': 'nothings',
+ 'private': False,
+ 'repo_url': 'https://github.com/nothings/stb',
+ 'updated_at': '2021-02-02T14:24:56Z',
+ 'user_url': 'https://github.com/nothings'}
+2021-02-02 23:13:56 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=JAVA&per_page=30>
+{'created_at': '2014-11-19T03:52:56Z',
+ 'description': '17mon IP库解析代码',
+ 'name': '17mon',
+ 'private': False,
+ 'repo_url': 'https://github.com/17mon/java',
+ 'updated_at': '2020-11-13T02:46:21Z',
+ 'user_url': 'https://github.com/17mon'}
+2021-02-02 23:13:56 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=Python&per_page=30>
+{'created_at': '2012-06-06T21:02:35Z',
+ 'description': 'A collection of design patterns/idioms in Python',
+ 'name': 'faif',
+ 'private': False,
+ 'repo_url': 'https://github.com/faif/python-patterns',
+ 'updated_at': '2021-02-02T14:32:35Z',
+ 'user_url': 'https://github.com/faif'}
+2021-02-02 23:13:57 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=C&per_page=30>
+{'created_at': '2012-09-19T10:14:00Z',
+ 'description': 'The Apache Kafka C/C++ library',
+ 'name': 'edenhill',
+ 'private': False,
+ 'repo_url': 'https://github.com/edenhill/librdkafka',
+ 'updated_at': '2021-02-02T12:12:48Z',
+ 'user_url': 'https://github.com/edenhill'}
+2021-02-02 23:13:57 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=Python&per_page=30>
+{'created_at': '2019-04-27T04:49:56Z',
+ 'description': 'This repository helps you understand python from the scratch.',
+ 'name': 'Tanu-N-Prabhu',
+ 'private': False,
+ 'repo_url': 'https://github.com/Tanu-N-Prabhu/Python',
+ 'updated_at': '2021-02-02T10:06:46Z',
+ 'user_url': 'https://github.com/Tanu-N-Prabhu'}
+2021-02-02 23:13:57 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=C&per_page=30>
+{'created_at': '2013-10-05T21:37:17Z',
+ 'description': 'Embedded C/C++ web server',
+ 'name': 'civetweb',
+ 'private': False,
+ 'repo_url': 'https://github.com/civetweb/civetweb',
+ 'updated_at': '2021-02-02T09:43:15Z',
+ 'user_url': 'https://github.com/civetweb'}
+2021-02-02 23:13:57 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=Python&per_page=30>
+{'created_at': '2019-04-02T20:19:54Z',
+ 'description': 'python爬虫教程系列、从0到1学习python爬虫，包括浏览器抓包，手机APP抓包，如 '
+                'fiddler、mitmproxy，各种爬虫涉及的模块的使用，如：requests、beautifulSou',
+ 'name': 'wistbean',
+ 'private': False,
+ 'repo_url': 'https://github.com/wistbean/learn_python3_spider',
+ 'updated_at': '2021-02-02T15:13:24Z',
+ 'user_url': 'https://github.com/wistbean'}
+2021-02-02 23:13:57 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=C&per_page=30>
+{'created_at': '2014-11-01T01:28:53Z',
+ 'description': 'Fast C++ logging library.',
+ 'name': 'gabime',
+ 'private': False,
+ 'repo_url': 'https://github.com/gabime/spdlog',
+ 'updated_at': '2021-02-02T10:10:10Z',
+ 'user_url': 'https://github.com/gabime'}
+2021-02-02 23:13:57 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=Python&per_page=30>
+{'created_at': '2015-05-20T22:09:21Z',
+ 'description': '小白的Python入门教程实战篇：网站+iOS App源码→ http://t.cn/R2PDyWN 赞助→ '
+                'http://t.cn/R5bhVpf',
+ 'name': 'michaelliao',
+ 'private': False,
+ 'repo_url': 'https://github.com/michaelliao/awesome-python3-webapp',
+ 'updated_at': '2021-02-02T11:32:02Z',
+ 'user_url': 'https://github.com/michaelliao'}
+2021-02-02 23:13:57 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=C&per_page=30>
+{'created_at': '2014-07-09T15:14:52Z',
+ 'description': 'C语言学习项目',
+ 'name': 'leleliu008',
+ 'private': False,
+ 'repo_url': 'https://github.com/leleliu008/C',
+ 'updated_at': '2021-01-01T13:48:56Z',
+ 'user_url': 'https://github.com/leleliu008'}
+2021-02-02 23:13:57 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=Python&per_page=30>
+{'created_at': '2011-03-15T03:24:20Z',
+ 'description': 'Python best practices guidebook, written for humans. ',
+ 'name': 'realpython',
+ 'private': False,
+ 'repo_url': 'https://github.com/realpython/python-guide',
+ 'updated_at': '2021-02-02T13:45:40Z',
+ 'user_url': 'https://github.com/realpython'}
+2021-02-02 23:13:57 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=C&per_page=30>
+{'created_at': '2011-08-06T19:09:35Z',
+ 'description': 'my old C codes... sandbox',
+ 'name': 'CoolerVoid',
+ 'private': False,
+ 'repo_url': 'https://github.com/CoolerVoid/C',
+ 'updated_at': '2021-01-26T13:52:12Z',
+ 'user_url': 'https://github.com/CoolerVoid'}
+2021-02-02 23:13:57 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=Python&per_page=30>
+{'created_at': '2015-04-05T02:59:59Z',
+ 'description': '关于Python的面试题',
+ 'name': 'taizilongxu',
+ 'private': False,
+ 'repo_url': 'https://github.com/taizilongxu/interview_python',
+ 'updated_at': '2021-02-02T14:37:55Z',
+ 'user_url': 'https://github.com/taizilongxu'}
+2021-02-02 23:13:57 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=C&per_page=30>
+{'created_at': '2019-04-24T15:45:46Z',
+ 'description': None,
+ 'name': 'taller-programacion',
+ 'private': False,
+ 'repo_url': 'https://github.com/taller-programacion/C',
+ 'updated_at': '2021-01-06T22:50:16Z',
+ 'user_url': 'https://github.com/taller-programacion'}
+2021-02-02 23:13:57 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=Python&per_page=30>
+{'created_at': '2017-05-05T07:28:13Z',
+ 'description': ':rainbow:Python3网络爬虫实战：淘宝、京东、网易云、B站、12306、抖音、笔趣阁、漫画小说下载、音乐电影下载等',
+ 'name': 'Jack-Cherish',
+ 'private': False,
+ 'repo_url': 'https://github.com/Jack-Cherish/python-spider',
+ 'updated_at': '2021-02-02T13:21:40Z',
+ 'user_url': 'https://github.com/Jack-Cherish'}
+2021-02-02 23:13:57 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=C&per_page=30>
+{'created_at': '2013-04-01T18:47:55Z',
+ 'description': 'PubNub clients for C, C++, and Raspberry Pi',
+ 'name': 'pubnub',
+ 'private': False,
+ 'repo_url': 'https://github.com/pubnub/c',
+ 'updated_at': '2020-11-16T12:43:06Z',
+ 'user_url': 'https://github.com/pubnub'}
+2021-02-02 23:13:57 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=C&per_page=30>
+{'created_at': '2015-02-17T08:00:51Z',
+ 'description': 'Learn OpenCV  : C++ and Python Examples',
+ 'name': 'spmallick',
+ 'private': False,
+ 'repo_url': 'https://github.com/spmallick/learnopencv',
+ 'updated_at': '2021-02-02T13:02:56Z',
+ 'user_url': 'https://github.com/spmallick'}
+2021-02-02 23:13:57 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=C&per_page=30>
+{'created_at': '2017-09-20T15:10:30Z',
+ 'description': 'Abseil Common Libraries (C++)',
+ 'name': 'abseil',
+ 'private': False,
+ 'repo_url': 'https://github.com/abseil/abseil-cpp',
+ 'updated_at': '2021-02-02T11:47:33Z',
+ 'user_url': 'https://github.com/abseil'}
+2021-02-02 23:13:57 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=C&per_page=30>
+{'created_at': '2013-07-18T06:51:40Z',
+ 'description': ':bar_chart: A D3-based reusable chart library',
+ 'name': 'c3js',
+ 'private': False,
+ 'repo_url': 'https://github.com/c3js/c3',
+ 'updated_at': '2021-02-01T17:15:43Z',
+ 'user_url': 'https://github.com/c3js'}
+2021-02-02 23:13:57 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=C&per_page=30>
+{'created_at': '2012-07-15T05:02:21Z',
+ 'description': 'CS50 Library for C',
+ 'name': 'cs50',
+ 'private': False,
+ 'repo_url': 'https://github.com/cs50/libcs50',
+ 'updated_at': '2021-02-02T05:08:53Z',
+ 'user_url': 'https://github.com/cs50'}
+2021-02-02 23:13:57 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=C&per_page=30>
+{'created_at': '2014-11-04T17:57:29Z',
+ 'description': 'C in four functions',
+ 'name': 'rswier',
+ 'private': False,
+ 'repo_url': 'https://github.com/rswier/c4',
+ 'updated_at': '2021-02-02T06:49:37Z',
+ 'user_url': 'https://github.com/rswier'}
+2021-02-02 23:13:57 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=C&per_page=30>
+{'created_at': '2011-01-29T07:21:19Z',
+ 'description': 'My C libraries and programs',
+ 'name': 'malaise',
+ 'private': False,
+ 'repo_url': 'https://github.com/malaise/c',
+ 'updated_at': '2020-12-31T23:54:16Z',
+ 'user_url': 'https://github.com/malaise'}
+2021-02-02 23:13:57 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=C&per_page=30>
+{'created_at': '2015-06-09T08:25:20Z',
+ 'description': 'Уроки программирования на Си',
+ 'name': 'GenaANTG',
+ 'private': False,
+ 'repo_url': 'https://github.com/GenaANTG/C',
+ 'updated_at': '2021-01-29T11:41:38Z',
+ 'user_url': 'https://github.com/GenaANTG'}
+2021-02-02 23:13:57 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=C&per_page=30>
+{'created_at': '2013-12-25T20:42:38Z',
+ 'description': 'some codes',
+ 'name': 'hc0d3r',
+ 'private': False,
+ 'repo_url': 'https://github.com/hc0d3r/C',
+ 'updated_at': '2020-11-16T19:05:29Z',
+ 'user_url': 'https://github.com/hc0d3r'}
+2021-02-02 23:13:57 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=C&per_page=30>
+{'created_at': '2011-06-06T21:42:50Z',
+ 'description': 'Event notification library',
+ 'name': 'libevent',
+ 'private': False,
+ 'repo_url': 'https://github.com/libevent/libevent',
+ 'updated_at': '2021-02-02T12:58:17Z',
+ 'user_url': 'https://github.com/libevent'}
+2021-02-02 23:13:57 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=C&per_page=30>
+{'created_at': '2015-06-06T00:52:43Z',
+ 'description': 'distributed builds for C, C++ and Objective C',
+ 'name': 'distcc',
+ 'private': False,
+ 'repo_url': 'https://github.com/distcc/distcc',
+ 'updated_at': '2021-02-01T07:43:41Z',
+ 'user_url': 'https://github.com/distcc'}
+2021-02-02 23:13:57 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=C&per_page=30>
+{'created_at': '2014-02-11T10:44:50Z',
+ 'description': 'Function graph tracer for C/C++/Rust',
+ 'name': 'namhyung',
+ 'private': False,
+ 'repo_url': 'https://github.com/namhyung/uftrace',
+ 'updated_at': '2021-01-31T04:49:55Z',
+ 'user_url': 'https://github.com/namhyung'}
+2021-02-02 23:13:57 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=C&per_page=30>
+{'created_at': '2010-12-04T22:17:02Z',
+ 'description': 'https://github.com/json-c/json-c is the official code '
+                'repository for json-c.  See the wiki for relea',
+ 'name': 'json-c',
+ 'private': False,
+ 'repo_url': 'https://github.com/json-c/json-c',
+ 'updated_at': '2021-02-02T14:06:25Z',
+ 'user_url': 'https://github.com/json-c'}
+2021-02-02 23:13:57 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=C&per_page=30>
+{'created_at': '2016-11-14T19:38:32Z',
+ 'description': 'C++ Documentation',
+ 'name': 'MicrosoftDocs',
+ 'private': False,
+ 'repo_url': 'https://github.com/MicrosoftDocs/cpp-docs',
+ 'updated_at': '2021-02-02T14:21:56Z',
+ 'user_url': 'https://github.com/MicrosoftDocs'}
+2021-02-02 23:13:57 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=C&per_page=30>
+{'created_at': '2016-01-26T08:17:15Z',
+ 'description': None,
+ 'name': '17mon',
+ 'private': False,
+ 'repo_url': 'https://github.com/17mon/c',
+ 'updated_at': '2020-08-02T14:27:47Z',
+ 'user_url': 'https://github.com/17mon'}
+2021-02-02 23:13:57 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=C&per_page=30>
+{'created_at': '2015-06-15T15:44:58Z',
+ 'description': 'LeetCode in pure C',
+ 'name': 'begeekmyfriend',
+ 'private': False,
+ 'repo_url': 'https://github.com/begeekmyfriend/leetcode',
+ 'updated_at': '2021-02-02T08:12:03Z',
+ 'user_url': 'https://github.com/begeekmyfriend'}
+2021-02-02 23:13:57 [spiderLogger] INFO: Dump data from spider [github_spider]
+2021-02-02 23:13:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.github.com/search/repositories?q=C&per_page=30>
+{'created_at': '2016-05-05T03:40:54Z',
+ 'description': 'Coroutine library for C/C++',
+ 'name': 'tencent-wechat',
+ 'private': False,
+ 'repo_url': 'https://github.com/tencent-wechat/libco',
+ 'updated_at': '2021-02-01T12:20:19Z',
+ 'user_url': 'https://github.com/tencent-wechat'}
+2021-02-02 23:13:57 [scrapy.core.engine] INFO: Closing spider (finished)
+2021-02-02 23:13:57 [spiderLogger] INFO: Spider [github_spider] closed, file closed
+2021-02-02 23:13:57 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1327,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 4,
+ 'downloader/response_bytes': 54186,
+ 'downloader/response_count': 4,
+ 'downloader/response_status_count/200': 4,
+ 'elapsed_time_seconds': 9.669733,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2021, 2, 2, 15, 13, 57, 946900),
+ 'item_scraped_count': 90,
+ 'log_count/DEBUG': 222,
+ 'log_count/INFO': 256,
+ 'response_received_count': 4,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2021, 2, 2, 15, 13, 48, 277167)}
+2021-02-02 23:13:57 [scrapy.core.engine] INFO: Spider closed (finished)
+2021-02-02 23:13:58 [spiderLogger] INFO: Prepare to send email
+2021-02-02 23:14:01 [spiderLogger] INFO: Send Email to ['zhuweijie@ebupt.com']
