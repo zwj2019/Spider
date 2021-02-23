@@ -3,6 +3,7 @@ import logging
 import traceback
 from urllib.parse import quote
 import yagmail
+from openpyxl import load_workbook
 
 import EBCodeSearch.settings as settings
 
@@ -63,3 +64,15 @@ def send_email():
     except Exception as e:
         logger.warning("Fail to send email!")
         print(traceback.format_exc())
+
+
+
+def read_excel(file_path):
+
+    wb = load_workbook(file_path)
+    sheet = wb.get_sheet_by_name(wb.get_sheet_names()[-1])
+    assert wb.max_row > 1
+    for row in sheet.iter_rows(min_row=2, min_col=1, max_col=3):
+        for cell in row:
+            print(cell. value, end=' ')
+        print()
